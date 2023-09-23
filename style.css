@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e99d52;
+    
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+header:hover{
+    color: #d65656;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #6dfefc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#reviews {
+    margin-top: 20px;
+    background-color: #f73030;
+}
+
+.review {
+    margin-bottom: 20px;
+    border: 1px solid #010101;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(243, 243, 243, 0.379)
+}
+
+.book-image {
+    max-width: 100px;
+    max-height: 150px;
+    margin-right: 10px;
+    float: left;
+}
+
+#add-review {
+    margin-top: 20px;
+    padding-top: 30px;
+    margin-left: 200px;
+}
+#review-text{
+    margin-left: 150px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-top: 5%;
+}
+
+.bkimg{
+    margin-left: 35%;
+    padding-top: 20px;
+
+}
+#submit{
+    margin-top: -20px;
+    margin-left: 350px;
+    margin-top:30px;
+    border: 2px solid ;
+    height: 30px;
+}
+button:hover{
+    color: #d65656;
+}
+.rating{
+    padding-left: 600px;
+    margin-top: -18px;
+}
+.author{
+    padding-left: 300px;
+    margin-top: -18px;
+
+}
